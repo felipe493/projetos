@@ -37,7 +37,7 @@ body {
     justify-content: center;
 }
 
-input, section, textarea, button {
+input, select, textarea, button {
     border-radius: 5px;
 }
 
@@ -75,7 +75,7 @@ fieldset.grupo .campo {
     padding-right: 1em;
 }
 
-.campo input:focus, .campo section:focus, .campo textarea:focus {
+.campo input:focus, .campo select:focus, .campo textarea:focus {
     background: #E0E0F8;
 }
 
