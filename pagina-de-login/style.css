@@ -4,10 +4,14 @@ body {
 
 .container {
   position: absolute;
-  top: 50%;
+  top: 53%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
+  width: 400px; /* aumenta a largura */
+  height: 450px; /* aumenta a altura */
+  background-color: #f0f0f08e;
+  box-shadow: #ccc 0px 0px 10px;
 }
 
 h1 {
@@ -17,9 +21,20 @@ h1 {
 
 input {
   padding: 10px;
-  margin: 6px;
+  margin: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.438);
+  margin-top: 20px;
+}
+
+p {
+  margin-top: 50px;
 }
 
 button {
@@ -32,8 +47,12 @@ button {
   cursor: pointer;
 }
 
-.esqueceu-senha {
-  margin-top: 30px;
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.192);
+.cadastro {
+  padding: 10px 50px;
+  background-color: #380B61;
+  color: white;
+  border: none;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
 }
