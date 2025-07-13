@@ -8,8 +8,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  width: 400px; /* aumenta a largura */
-  height: 450px; /* aumenta a altura */
+  width: 400px;
+  height: 500px;
   background-color: #f0f0f08e;
   box-shadow: #ccc 0px 0px 10px;
 }
@@ -17,6 +17,7 @@ body {
 h1 {
   font-family: sans-serif;
   color: #380B61;
+  margin-top: 30px;
 }
 
 input {
@@ -24,6 +25,10 @@ input {
   margin: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+}
+
+.email, .senha {
+  margin: 20px;
 }
 
 a {
@@ -34,7 +39,7 @@ a {
 }
 
 p {
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 button {
