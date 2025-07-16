@@ -1,61 +1,76 @@
+:root {
+  --cor-principal: #380B61;
+  --cor1: #f0f0f08e;
+  --cor2: #ccc;
+  --cor3: rgba(0, 0, 0, 0.438);
+  --cor4: white;
+}
+
 body {
   margin: 0;
 }
 
 .container {
   position: absolute;
-  top: 53%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   width: 400px;
-  height: 500px;
-  background-color: #f0f0f08e;
-  box-shadow: #ccc 0px 0px 10px;
+  height: 520px;
+  background-color: var(--cor1);
+  box-shadow: var(--cor2) 0px 0px 10px;
 }
 
 h1 {
   font-family: sans-serif;
-  color: #380B61;
-  margin-top: 30px;
+  color: var(--cor-principal);
+  margin-top: 48px;
+}
+
+label {
+  padding-left: 10px;
+  font-size: 16px;
+  color: var(--cor3);
 }
 
 input {
-  padding: 10px;
+  padding: 10px 20px;
   margin: 10px;
-  border: 1px solid #ccc;
+  border: 1px solid var(--cor2);
   border-radius: 4px;
 }
 
-.email, .senha {
-  margin: 20px;
-}
-
-a {
-  display: inline-block;
-  text-decoration: none;
-  color: rgba(0, 0, 0, 0.438);
-  margin-top: 20px;
-}
-
-p {
-  margin-top: 30px;
-}
-
 button {
-  padding: 10px 70px;
-  background-color: #380B61;
-  color: white;
+  padding: 10px 80px;
+  background-color: var(--cor-principal); 
+  color: var(--cor4);
   border: none;
   font-size: 16px;
   border-radius: 4px;
   cursor: pointer;
 }
 
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--cor3);
+  margin-top: 6px;
+  font-size: 17px;
+}
+
+p {
+  margin: 40px 0px 0px 0px;
+  font-size: 17px;
+}
+
 .cadastro {
-  padding: 10px 50px;
-  background-color: #380B61;
-  color: white;
+  padding: 10px 60px;
+  margin: 30px;
+  background-color: var(--cor-principal);
+  color: var(--cor4);
   border: none;
   font-size: 16px;
   border-radius: 4px;
