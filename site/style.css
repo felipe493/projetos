@@ -61,7 +61,7 @@ a {
 }
 
 .cadastro {
-    padding: 10px 15px;
+    padding: 8px 10px;
     border-radius: 5px;
     background-color: var(--primario-color);
     color: var(--text-color-terciario);
