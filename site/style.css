@@ -6,8 +6,8 @@
     --primario-color: #344e41;
     --secondario-color: #f0f0f0;
     --text-color: #1f3228;
-    --text-color-secundario: black;
-    --text-color-terciario: white;
+    --text-color-secundario: #667085;
+    --text-color-terciario: #8E2424;
     --background-color: #ececec;
     --background-header: #ffffff;
 }
@@ -64,7 +64,7 @@ a {
     padding: 8px 10px;
     border-radius: 5px;
     background-color: var(--primario-color);
-    color: var(--text-color-terciario);
+    color: var(--secondario-color);
 }
 
 .entra {
@@ -76,4 +76,33 @@ a {
     display: flex;
     gap: 20px;
     list-style: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.cabecalho {
+    padding: 50px;
+    text-align: center;
+}
+
+p {
+    color: var(--text-color-secundario);
+}
+
+.sobre {
+    font-size: 20px;
+    color: #8E2424;
+    padding: 24px;
+    margin: 7px;
+}
+
+main h1 {
+    font-size: 40px;
+}
+
+.texto-de-apoio {
+    font-size: 20px;
+    padding: 10px;
 }
