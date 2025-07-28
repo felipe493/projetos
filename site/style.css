@@ -3,15 +3,8 @@
     padding: 0;
 }
 :root {
-    --primario-color: #344e41;
-    --secondario-color: #f0f0f0;
-    --text-color: #1f3228;
-    --text-color-secundario: #667085;
-    --text-color-terciario: #8E2424;
-    --background-color: #ececec;
-    --background-header: #ffffff;
+    
 }
-
 
 body {
   font-family: Arial, sans-serif;
