@@ -3,7 +3,11 @@
     padding: 0;
 }
 :root {
-    
+    --cor1: #FFFFFF;
+    --cor2: #8E2424;
+    --cor3: #667085;
+    --cor4: #C31919;
+    --cor5: #3A404E;
 }
 
 body {
@@ -29,23 +33,41 @@ nav {
 }
 
 .logo {
+    margin: -16px;
     cursor: pointer;
 }
 
 .logo-img {
     height: 27;
     width: 27px;
+    margin-right: 8px;
 }
 
 .logo-texto {
-    margin-bottom: 5px;
+    margin-top: 4px;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
     font-weight: bold;
-    color: var(--text-color);
+    color: var(--cor5);
 }
 
 a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    color: var(--text-color);
+    color: var(--cor3);
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.entra {
+    padding: 5px;
+    margin-top: 6px;
+    color: var(--cor3);
 }
 
 .botao {
@@ -56,19 +78,8 @@ a {
 .cadastro {
     padding: 8px 10px;
     border-radius: 5px;
-    background-color: var(--primario-color);
-    color: var(--secondario-color);
-}
-
-.entra {
-    padding: 5px;
-    margin-top: 6px;
-}
-
-.menu {
-    display: flex;
-    gap: 20px;
-    list-style: none;
+    background-color: var(--cor2);
+    color: var(--cor1);
 }
 
 main {
