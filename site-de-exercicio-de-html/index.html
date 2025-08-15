@@ -33,6 +33,62 @@
             <img src="imagem/Captura de tela 2025-08-14 101513.png" alt="Imagem de um formulário de cadastro">
             <figcaption>formulario de cadastro desenvolvido com <mark>HTML 5 é CSS 3</mark></figcaption>  
         </figure>
+       <table border="1">
+            <colgroup>tabela de exemplo</colgroup>
+            <thead>
+                <tr>
+                <th rowspan="2">Aluno</th>
+                <th colspan="2">Notas</th>
+                </tr>
+                <tr>
+                <th>Matemática</th>
+                <th>Português</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Felipe</td>
+                <td>8</td>
+                <td>9</td>
+                </tr>
+                <tr>
+                <td>Maria</td>
+                <td>7</td>
+                <td>10</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <td colspan="3">Média geral da turma</td>
+            </tfoot>
+        </table>
+        <form>
+            <fieldset>
+                <legend>entre em contato</legend>
+                <label for="nome">nome</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required> <br>
+                <label for="email">email</label>
+                <input type="text" id="email" placeholder="exemplo123@gmail.com" required> <br>
+                <label for="cidade">Cidade</label>
+                <select name="cidade" id="cidade" required>
+                    <option value="">Selecione</option>
+                    <option value="sp">São paulo</option>
+                    <option value="rj">Rio de janeiro</option>
+                    <option value="rn">Rio grande do norte</option>
+                    <option value="bh">Belo horizonte</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Outros</legend>
+                
+                <label for="fixo">Campo Somente Leitura:</label>
+                <input type="text" id="fixo" value="Não alterável" readonly>
+                <br><br>
+                
+                <label for="desabilitado">Campo Desabilitado:</label>
+                <input type="text" id="desabilitado" value="Desativado" disabled>
+            </fieldset> <br>
+            <button type="submit">Enviar</button>
+        </form>
     </main>
     <footer>
         desenvolvido por Felipe - <time datetime="2025">2025</time>
