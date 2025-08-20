@@ -1,0 +1,16 @@
+:root {
+    --color-background: #BBCDE5;
+    --color-text: #222222;
+    --color-primary: #802392;
+    --color-secondary: #995FA3;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+}
+
+.bem-vindo {
+    background-image: url(imagem/lago.png);
+    color: white;
+}
