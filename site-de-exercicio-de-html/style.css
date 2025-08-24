@@ -13,14 +13,51 @@ body {
     font-family: 'Cabin', sans-serif;
     font-size: 1.1em;
     font-weight: 500;
+    line-height: 1.3;
+    letter-spacing: 0.1em;
+    word-spacing: 0.1em;
 }
 
-.bem-vindo {
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    
+}
+
+.sobre-mim {
     background-image: url(imagem/por-do-sol.jpg);
     background-repeat: no-repeat;
     background-attachment: local;
     color: rgb(255, 253, 253);
     width: 600px;
+}
+
+.sobre-mim h3 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-top: -5px;
+}
+
+h1, h2, h3 {
+    text-transform: capitalize;
+}
+
+a {
+    color: var(--color-secondary);
+    text-decoration: none;
+}
+
+code {
+    text-decoration: underline;
+    text-decoration-color: var(--color-primary);
 }
 
 cite {
