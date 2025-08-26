@@ -33,7 +33,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: local;
     color: rgb(255, 253, 253);
+    padding: 12px;
     width: 600px;
+    height: 410px;
 }
 
 .sobre-mim h3 {
@@ -62,4 +64,22 @@ code {
 cite {
     font-style: italic;
     font-weight: 100;
+}
+
+figure {
+    text-align: center;
+}
+
+figure img {
+    width: 200px;
+    height: auto;
+    border: 2px solid var(--color-primary);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+figcaption {
+    margin-top: 8px;
+    font-size: 0.9em;
+    color: var(--color-text);
 }
