@@ -28,6 +28,15 @@ body {
     border-radius: 10px;
 }
 
+h1 {
+    text-align: center;
+    margin-top: -5px;
+}
+
+a {
+    color: var(--color-secondary);
+    text-decoration: none;
+}
 .sobre-mim {
     background-image: url(imagem/por-do-sol.jpg);
     background-repeat: no-repeat;
@@ -42,18 +51,13 @@ body {
     text-align: center;
 }
 
-h1 {
-    text-align: center;
-    margin-top: -5px;
-}
-
 h1, h2, h3 {
     text-transform: capitalize;
 }
 
-a {
-    color: var(--color-secondary);
-    text-decoration: none;
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
 }
 
 code {
@@ -83,3 +87,4 @@ figcaption {
     font-size: 0.9em;
     color: var(--color-text);
 }
+
